@@ -1,0 +1,21 @@
+// Браузеры
+// Браузер Internet Explorer до версии 9.0 поддерживает только шрифты формата EOT (Embedded OpenType).
+// Opera в некоторых случаях может не показывать на веб-странице текст выбранным шрифтом, заменяя его стандартным. Причём для локальных документов всё работает корректно. Это происходит в тех случаях, когда имя пользователя в Windows написано кириллицей.
+/*---------------------------fonts-------------------------*
+
+@font-face {
+	font-family: OS-B;
+	src: url(../../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: OS-L;
+	src: url(../../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: OS-R;
+	src: url(../../fonts/OpenSans-Regular.ttf);
+}
+
+/*----------------------------end of fonts------------------*/
