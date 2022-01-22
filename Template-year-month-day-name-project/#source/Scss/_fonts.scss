@@ -1,21 +1,56 @@
 // Браузеры
 // Браузер Internet Explorer до версии 9.0 поддерживает только шрифты формата EOT (Embedded OpenType).
 // Opera в некоторых случаях может не показывать на веб-странице текст выбранным шрифтом, заменяя его стандартным. Причём для локальных документов всё работает корректно. Это происходит в тех случаях, когда имя пользователя в Windows написано кириллицей.
-/*---------------------------fonts-------------------------*
-
+/*---------------------------fonts-------------------------*/
 @font-face {
-	font-family: OS-B;
-	src: url(../../fonts/OpenSans-Bold.ttf);
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.eot");
+  src: url("../fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Regular.ttf") format("truetype"),
+    url("../fonts/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-	font-family: OS-L;
-	src: url(../../fonts/OpenSans-Light.ttf);
+  font-family: "Raleway-SemiBold";
+  src: url("../fonts/Raleway-SemiBold.eot");
+  src: url("../fonts/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-SemiBold.ttf") format("truetype"),
+    url("../fonts/Raleway-SemiBold.woff") format("woff"),
+    url("../fonts/Raleway-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-	font-family: OS-R;
-	src: url(../../fonts/OpenSans-Regular.ttf);
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.eot");
+  src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../fonts/Raleway-Bold.eot");
+  src: url("../fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Bold.ttf") format("truetype"),
+    url("../fonts/Raleway-Bold.woff") format("woff"),
+    url("../fonts/Raleway-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cardo-Italic";
+  src: url("../fonts/Cardo-Italic.eot");
+  src: url("../fonts/Cardo-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cardo-Italic.ttf") format("truetype"),
+    url("../fonts/Cardo-Italic.woff") format("woff"),
+    url("../fonts/Cardo-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
 }
 
 /*----------------------------end of fonts------------------*/
